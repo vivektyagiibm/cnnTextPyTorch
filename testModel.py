@@ -92,16 +92,8 @@ class CNN_Text(nn.Module):
            for mp in x:
               ofile3.write(str(mp.data))
               ofile3.write('\n')
-
         x = torch.cat(x, 1)
         
-
-        '''
-        x1 = self.conv_and_pool(x,self.conv13) #(N,Co)
-        x2 = self.conv_and_pool(x,self.conv14) #(N,Co)
-        x3 = self.conv_and_pool(x,self.conv15) #(N,Co)
-        x = torch.cat((x1, x2, x3), 1) # (N,len(Ks)*Co)
-        '''
         # Remove dropout for now
         #x = self.dropout(x)  # (N, len(Ks)*Co)
         #logit =self.fc1(x)
@@ -113,8 +105,8 @@ if __name__=="__main__":
     print("loading data...")
     x = cPickle.load(open("mr.p","rb"))
     CNNModelFile = 'CNNPyTorchModel'
-    #GUTSOPEN = False 
-    GUTSOPEN = True 
+    GUTSOPEN = False 
+    #GUTSOPEN = True 
     revs, W, W2, word_idx_map,idx_word_map, vocab = x[0], x[1], x[2], x[3], x[4],x[5]
     print("data loaded!")
     batch_size = 20
