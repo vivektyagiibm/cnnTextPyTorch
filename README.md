@@ -5,8 +5,11 @@ Trained and tested on "Moview Review Dataset".
 Purpose is to provide a tutorial to the interested user on how to train a state of the art CNN text classifier using user-provided emebddings (word2vec in this case). 
 A classical SGD is applied to also exemplify the updates in a deep learning system instead of the optimizer method. 
 
-
-Download GoogleNews-vectors-negative300.bin to the same directory where you clone this repo.
+## Requirement
+* Download GoogleNews-vectors-negative300.bin to the same directory where you clone this repo.
+* python 3
+* pytorch > 0.1
+* numpy
 
 Tokenize and clean your Movie Review (SST-2) data (already in this repo). This dumps a pickle file with the train and tets datasets. 
 ## Usage
