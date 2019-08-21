@@ -1,5 +1,5 @@
 ## CNN Text Classifier PyTorch
-State of the art single convolution layer + maxpool + fully connected last layer, Convolution Text Classifier with word2vec embeddings as input. Adding more convolution layers did not improve the performance on Moview review (SST-2) and other datasets and hence the single convolution layer architecture has been chosen. 
+State of the art single convolution layer + maxpool + fully connected last layer, Convolution Text Classifier with word2vec embeddings as input. Adding more convolution layers did not improve the performance on Movie review (SST-2) and other datasets and hence the single convolution layer architecture has been chosen. 
 
 Trained and tested on "Movie Review Dataset". 
 
