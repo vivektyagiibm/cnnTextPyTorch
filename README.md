@@ -12,6 +12,10 @@ A classical SGD is applied to also exemplify the updates in a deep learning syst
 * pytorch > 0.1
 * numpy
 
+<embed src="https://github.com/vivektyagiibm/cnnTextPyTorch/blob/master/cnn.pdf" width="800px" height="2100px" />
+
+<img src="https://github.com/vivektyagiibm/cnnTextPyTorch/blob/master/cnn.pdf" alt="HMTL Architecture" width="350"/>
+
 Tokenize and clean your Movie Review (SST-2) data (already in this repo). This dumps a pickle file with the train and tets datasets. 
 ## Usage
 ```
