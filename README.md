@@ -1,5 +1,6 @@
 ## CNN Text Classifier PyTorch
-A simple one convolution layer + maxpool + full connected last layer, Convolution Text Classifier with word2vec embeddings as input. 
+State of the art single convolution layer + maxpool + fully connected last layer, Convolution Text Classifier with word2vec embeddings as input. Adding more convolution layers did not improve the performance on Moview review (SST-2) and other datasets and hence the single convolution layer architecture has been chosen. 
+
 Trained and tested on "Movie Review Dataset". 
 
 Purpose is to provide a tutorial to the interested user on how to train a state of the art CNN text classifier using user-provided embeddings (word2vec in this case). 
